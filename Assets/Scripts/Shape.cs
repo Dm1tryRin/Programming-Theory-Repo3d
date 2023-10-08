@@ -5,10 +5,10 @@ using UnityEngine;
 
 public class Shape : MonoBehaviour
 {
-    protected string name { get; set; }
-    private string color { get; set; }
+    protected string name { get; set; } // ENCAPSULATION
+    private string color { get; set; } //ENCAPSULATION
 
-    protected string Color
+    protected string Color //ENCAPSULATION
     {
         get
         {

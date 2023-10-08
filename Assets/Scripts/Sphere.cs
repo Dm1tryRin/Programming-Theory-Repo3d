@@ -14,7 +14,7 @@ public class Sphere : Shape
         Instantiate(name,color);
     }
 
-    private void Instantiate(string _name, string _color)
+    private void Instantiate(string _name, string _color) // ABSTRACTION
     {
         sphere = this;
         sphere.name = _name;
@@ -26,7 +26,7 @@ public class Sphere : Shape
         Rolling();
     }
 
-    private void Rolling()
+    private void Rolling() // ABSTRACTION
     {
         Debug.Log("Might be rolling!");
     }
